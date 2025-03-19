@@ -1,14 +1,14 @@
 let sounds = [
-  { name: "Pac-Man Theme", src: "sounds/retro-game.mp3" },
-  { name: "Old Telephone Ring", src: "sounds/phone_ringing.mp3" },
-  { name: "Rotary Phone Dial", src: "sounds/sound-effect-vintage-rotary-dial-telephone-201246.mp3" },
-  { name: "Iphone Notification", src: "sounds/COMCell_Message 1 (ID 1111)_BSB.mp3" },
-  { name: "Fortnite Shield Potion", src: "sounds/fortnite-shield-potion-fortnite-battle-royale-gaming-sound-effect-hd-sound-effects.mp3" },
-  { name: "Doorbell", src: "sounds/doorbell-223669.mp3" },
-  { name: "Old Car Horn", src: "sounds/old-car-horn-153262.mp3" },
-  { name: "Minecraft Eating", src: "sounds/nom-nom-nom_gPJiWn4.mp3" },
-  { name: "Wii Sports", src: "sounds/wii_sports_sms.mp3" },
-  { name: "Dial-up Internet", src: "sounds/dial-up.mp3" }
+  { name: "Pac-Man Theme", src: "retro-game.mp3" },
+  { name: "Old Telephone Ring", src: "phone_ringing.mp3" },
+  { name: "Rotary Phone Dial", src: "sound-effect-vintage-rotary-dial-telephone-201246.mp3" },
+  { name: "Iphone Notification", src: "COMCell_Message 1 (ID 1111)_BSB.mp3" },
+  { name: "Fortnite Shield Potion", src: "fortnite-shield-potion-fortnite-battle-royale-gaming-sound-effect-hd-sound-effects.mp3" },
+  { name: "Doorbell", src: "doorbell-223669.mp3" },
+  { name: "Old Car Horn", src: "old-car-horn-153262.mp3" },
+  { name: "Minecraft Eating", src: "nom-nom-nom_gPJiWn4.mp3" },
+  { name: "Wii Sports", src: "wii_sports_sms.mp3" },
+  { name: "Dial-up Internet", src: "dial-up.mp3" }
 ];
 
 let scores = {
