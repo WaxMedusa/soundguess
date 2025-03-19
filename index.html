@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Sound Guessing Game
+    </header>
+
+    <div class="score-container">
+        <div class="team-score">
+            <div class="score">
+                <span>Grandparents: </span>
+                <span id="grandparents-score">0</span>
+            </div>
+            <div class="score-controls">
+                <button class="score-button grandparents" onclick="updateTeamScore('grandparents', 1)">+1</button>
+                <button class="score-button grandparents negative" onclick="updateTeamScore('grandparents', -1)">-1</button>
+            </div>
+        </div>
+        <div class="team-score">
+            <div class="score">
+                <span>Kids: </span>
+                <span id="kids-score">0</span>
+            </div>
+            <div class="score-controls">
+                <button class="score-button kids" onclick="updateTeamScore('kids', 1)">+1</button>
+                <button class="score-button kids negative" onclick="updateTeamScore('kids', -1)">-1</button>
+            </div>
+        </div>
+        <button class="button-56" onclick="resetScores()">Reset Scores</button>
+        <button class="button-56" onclick="refreshGame()">Shuffle Sounds</button>
+    </div>
+
+    <div id="game-container" class="game-container"></div>
+
+    <div class="instructions-container">
+        <button class="instructions-button">?</button>
+        <div class="instructions-content">
+            <ol>
+                <li>Click Shuffle Sounds</li>
+                <li>Pick a sound at random</li>
+                <li>Listen and guess what the sound is, then click "Reveal answer" by the sound you clicked</li>
+                <li>If you get it right, click the +1 button by your age group</li>
+                <li>Switch! Kids, give your grandparents a turn or vice versa.</li>
+                <li>Do this for all the sounds until there are none left</li>
+                <li>Shuffle sounds when done so nobody else can see the answers!</li>
+            </ol>
+        </div>
+    </div>
+  <footer id="bottom-footer">        Created by Damien Baran. Made for Seton Catholic School</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
